@@ -1,0 +1,14 @@
+arxiv
+ipykernel
+langchain
+langfuse
+langgraph
+langchain-core
+langchain-community
+langchain-ollama
+python-dotenv
+langchain-openai
+langchain-groq
+wikipedia
+langgraph-cli[inmem]
+faiss-cpu
