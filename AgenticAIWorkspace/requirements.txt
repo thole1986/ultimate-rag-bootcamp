@@ -5,10 +5,10 @@ langfuse
 langgraph
 langchain-core
 langchain-community
+langgraph-cli[inmem]
 langchain-ollama
-python-dotenv
 langchain-openai
 langchain-groq
+python-dotenv
 wikipedia
-langgraph-cli[inmem]
 faiss-cpu
