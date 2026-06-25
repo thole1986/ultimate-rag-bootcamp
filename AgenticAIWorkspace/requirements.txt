@@ -8,6 +8,7 @@ langchain-community
 langgraph-cli[inmem]
 langchain-ollama
 langchain-openai
+langchain-tavily
 langchain-groq
 python-dotenv
 wikipedia
