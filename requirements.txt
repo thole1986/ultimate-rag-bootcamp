@@ -1,13 +1,12 @@
 langchain
-langfuse
 langchain-groq
 faiss-cpu
 tiktoken
-langchain-ollama
 langchain-community
-langchain-openai
-langchain-groq
 langchain-google-genai
+langchain-openai
+langchain-ollama
+langchain-xai
 chromadb
 sentence-transformers
 pypdf
@@ -19,7 +18,6 @@ python-docx
 docx2txt
 pandas
 openpyxl
-ipykernel
 jq
 matplotlib
 ## Embeddings
@@ -29,3 +27,5 @@ langchain-experimental
 rank_bm25
 wikipedia
 langgraph
+langfuse
+ipykernel
