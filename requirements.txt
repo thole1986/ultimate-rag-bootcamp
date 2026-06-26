@@ -1,3 +1,4 @@
+arxiv
 langchain
 langchain-groq
 faiss-cpu
@@ -6,6 +7,7 @@ langchain-community
 langchain-google-genai
 langchain-openai
 langchain-ollama
+langchain-tavily
 langchain-xai
 chromadb
 sentence-transformers
