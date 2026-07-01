@@ -3,9 +3,11 @@ langchain
 langchain-groq
 faiss-cpu
 tiktoken
+litellm
 langchain-anthropic
 langchain-community
 langchain-google-genai
+langchain-litellm
 langchain-openai
 langchain-ollama
 langgraph-supervisor
