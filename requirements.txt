@@ -21,6 +21,7 @@ pdfminer
 python-docx
 docx2txt
 pandas
+pageindex
 openpyxl
 jq
 matplotlib
