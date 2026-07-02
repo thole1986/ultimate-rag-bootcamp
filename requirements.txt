@@ -36,3 +36,4 @@ wikipedia
 langgraph
 langfuse
 ipykernel
+neo4j==5.14
