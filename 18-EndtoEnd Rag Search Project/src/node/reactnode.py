@@ -2,11 +2,10 @@
 
 from typing import List, Optional
 from src.state.rag_state import RAGState
-
 from langchain_core.documents import Document
 from langchain_core.tools import Tool
 from langchain_core.messages import HumanMessage
-from langgraph.prebuilt import create_react_agent
+from langchain.agents import create_agent
 
 # Wikipedia tool
 from langchain_community.utilities import WikipediaAPIWrapper
@@ -68,7 +67,11 @@ class RAGNodes:
             "Prefer 'retriever' for user-provided docs; use 'wikipedia' for general knowledge. "
             "Return only the final useful answer."
         )
-        self._agent = create_react_agent(self.llm, tools=tools,prompt=system_prompt)
+        self._agent = create_agent(
+            self.llm,
+            tools=tools,
+            system_prompt=system_prompt,
+        )
 
     def generate_answer(self, state: RAGState) -> RAGState:
         """
